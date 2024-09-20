@@ -10,7 +10,7 @@ const Footer = () => {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-blue-700 p-2 rounded-full hover:bg-blue-600">
               <LinkedinLogo size={26} weight="regular" className="text-white" />
             </a>
-            <a href="https://wa.me/+919376141100" target="_blank" rel="noopener noreferrer" className="bg-green-500 p-2 rounded-full hover:bg-green-400">
+            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="bg-green-500 p-2 rounded-full hover:bg-green-400">
               <WhatsappLogo size={26} weight="regular" className="text-white" />
             </a>
           </div>
