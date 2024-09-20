@@ -1,0 +1,50 @@
+{
+    "companyName": "ESEMJE Appliances PVT. LTD.",
+    "description": "GF-1, Nirman Complex, opp. 1944 The Hocco Kitchen, nr. Bus Stop, Navarangpura Gam, Navrangpura, Ahmedabad, Gujarat 380009",
+    "profileImage": "https://cdn.bio.link/uploads/profile_pictures/2024-09-19/WEuFCVF8efKm6ok10KIXh082EK6rA59z.png",
+    "sections": [
+      {
+        "title": "APPLIANCES",
+        "items": [
+          {
+            "name": "Rena",
+            "url": "https://www.google.com"
+          },
+          {
+            "name": "Preethi",
+            "url": "https://www.google.com"
+          },
+          {
+            "name": "Peacock",
+            "url": "https://www.google.com"
+          },
+          {
+            "name": "Mowaa",
+            "url": "https://www.google.com"
+          }
+        ]
+      },
+      {
+        "title": "TOYS",
+        "items": [
+          {
+            "name": "Centy",
+            "url": "https://www.google.com"
+          },
+          {
+            "name": "Creative",
+            "url": "https://www.google.com"
+          },
+          {
+            "name": "Kirat",
+            "url": "https://www.google.com"
+          },
+          {
+            "name": "Masoom",
+            "url": "https://www.google.com"
+          }
+        ]
+      }
+    ]
+  }
+  
