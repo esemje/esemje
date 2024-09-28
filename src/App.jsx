@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     // Fetch data from the JSON file
-    fetch('https://saumil8200.github.io/esemje/data.json')
+    fetch('https://esemje.github.io/esemje/data.json')
       .then(response => response.json())
       .then(jsonData => setData(jsonData))
       .catch(error => console.error('Error fetching data:', error));
