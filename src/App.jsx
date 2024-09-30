@@ -11,6 +11,7 @@ const App = () => {
   useEffect(() => {
     // Fetch data from the JSON file
     fetch('https://esemje.github.io/esemje/data.json')
+    // fetch('data.json')
       .then(response => response.json())
       .then(jsonData => setData(jsonData))
       .catch(error => console.error('Error fetching data:', error));

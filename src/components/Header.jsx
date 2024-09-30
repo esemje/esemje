@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
-const Header = ({ companyName, profileImage, description }) => {
+import profileImage from '../assets/esemje.png';
+
+const Header = ({ companyName, description }) => {
   return (
     <header className="mt-12">
       <div className="md:flex md:items-center md:justify-center">
