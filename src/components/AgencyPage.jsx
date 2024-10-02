@@ -61,7 +61,8 @@ const AgencyPage = () => {
             <h2 className="text-3xl font-bold mb-6">{agency.name}</h2>
             
             <a 
-                href={agency.catalogue} 
+                href={agency.catalogue}
+                target="_blank" 
                 className="inline-block mb-8 bg-green-500 hover:bg-green-600 transition-colors duration-200 text-white py-2 px-6 rounded-lg shadow-md"
             >
                 View Full Catalogue
