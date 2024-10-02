@@ -1,5 +1,5 @@
 // App.jsx
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import AgencyList from './components/AgencyList';
 import AgencyPage from './components/AgencyPage';
 import { AgencyProvider } from './contexts/AgencyContext';
