@@ -211,92 +211,17 @@
     },
     {
         "name": "24 Karat",
-        "products": [
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 1"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 2"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 3"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 4"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 5"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 6"
-            }
-        ],
+        "products": [],
         "catalogue": "https://drive.google.com/drive/folders/1evwog1JqpOlU4D-6TU4XDUat3lLg-zjH?usp=sharing"
     },
     {
         "name": "Meyer",
-        "products": [
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 1"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 2"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 3"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 4"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 5"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 6"
-            }
-        ],
+        "products": [],
         "catalogue": "https://drive.google.com/drive/folders/1evwog1JqpOlU4D-6TU4XDUat3lLg-zjH?usp=sharing"
     },
     {
         "name": "Kudos",
-        "products": [
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 1"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 2"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 3"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 4"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 5"
-            },
-            {
-                "image": "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-                "alt": "Product 6"
-            }
-        ],
+        "products": [],
         "catalogue": "https://drive.google.com/drive/folders/1evwog1JqpOlU4D-6TU4XDUat3lLg-zjH?usp=sharing"
     }
 ]
