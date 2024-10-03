@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div>
+        <h1>Product List</h1>
+        <a href="{{ url_for('add') }}">Add New Product</a>
+        <ul>
+            {% for item in data %}
+            <li>
+                <div>
+                    <strong>{{ item.name }}</strong> - 
+                    <button>
+                        <a href="{{ url_for('edit', name=item.name) }}">Edit</a>
+                    </button>
+                    <form action="{{ url_for('delete', name=item.name) }}" method="POST" style="display:inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                </div>
+                <a href="{{ item.catalogue }}">Catalogue</a>
+                <ul>
+                    {% for product in item.products %}
+                    <li>
+                        <!-- <img src="{{ product.image }}" alt="{{ product.alt }}"> -->
+                        {{product.alt}} - <a href="{{product.image}}">{{product.image}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

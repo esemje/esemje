@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Product</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function addProductField() {
+            const productFields = document.getElementById('productFields');
+            const newField = document.createElement('div');
+            newField.innerHTML = `
+                <label for="product_link">Product Name:</label><br>
+                <input type="text" name="product_link[]"><br>
+                <label for="product_image">Product Image URL:</label><br>
+                <input type="text" name="product_image[]"><br><br>
+            `;
+            productFields.appendChild(newField);
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <a href="{{ url_for('index') }}">Back to List</a>
+        <h1>Add New Product</h1>
+        <form action="{{ url_for('add') }}" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="catalogue">Catalogue Link:</label><br>
+            <input type="text" id="catalogue" name="catalogue"><br><br>
+            <div id="productFields"></div>
+            <button type="button" onclick="addProductField()">Add Product Field</button><br><br>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+</body>
+</html>
