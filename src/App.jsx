@@ -4,6 +4,8 @@ import AgencyList from './components/AgencyList';
 import AgencyPage from './components/AgencyPage';
 import { AgencyProvider } from './contexts/AgencyContext';
 
+import './App.css';
+
 const App = () => {
     return (
         <AgencyProvider>

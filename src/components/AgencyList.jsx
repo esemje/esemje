@@ -29,7 +29,7 @@ const AgencyList = () => {
     return (
         <>
             <Header />
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mt-12">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mt-12 text-center">
                 {agencies.map((agency, index) => (
                     <Link 
                         key={index} 

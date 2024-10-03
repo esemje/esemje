@@ -1,0 +1,12 @@
+  @font-face {
+    font-family: 'Revue-Bold';
+    src: url('./fonts/revue-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-family: 'Revue-Bold', sans-serif;
+    font-weight: bold;
+  }
+  
