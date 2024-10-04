@@ -27,8 +27,18 @@ def index():
 def add():
     if request.method == 'POST':
         name = request.form['name']
-        catalogue = request.form['catalogue']
         
+        # Get catalogues from form
+        catalogues = []
+        catalogue_titles = request.form.getlist('catalogue_title[]')
+        catalogue_urls = request.form.getlist('catalogue_url[]')
+
+        for title, url in zip(catalogue_titles, catalogue_urls):
+            catalogues.append({
+                "title": title,
+                "url": url
+            })
+
         # Get products from form
         products = []
         product_links = request.form.getlist('product_link[]')
@@ -43,7 +53,7 @@ def add():
         new_entry = {
             "name": name,
             "products": products,
-            "catalogue": catalogue
+            "catalogues": catalogues  # Update to include multiple catalogues
         }
 
         data = load_data()
@@ -63,7 +73,19 @@ def edit(name):
 
     if request.method == 'POST':
         entry['name'] = request.form['name']
-        entry['catalogue'] = request.form['catalogue']
+
+        # Update catalogues
+        catalogues = []
+        catalogue_titles = request.form.getlist('catalogue_title[]')
+        catalogue_urls = request.form.getlist('catalogue_url[]')
+
+        for title, url in zip(catalogue_titles, catalogue_urls):
+            catalogues.append({
+                "title": title,
+                "url": url
+            })
+
+        entry['catalogues'] = catalogues  # Update to include multiple catalogues
 
         # Update products
         products = []
