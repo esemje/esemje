@@ -17,6 +17,18 @@
             `;
             productFields.appendChild(newField);
         }
+
+        function addCatalogueField() {
+            const catalogueFields = document.getElementById('catalogueFields');
+            const newField = document.createElement('div');
+            newField.innerHTML = `
+                <label for="catalogue_title">Catalogue Title:</label><br>
+                <input type="text" name="catalogue_title[]"><br>
+                <label for="catalogue_url">Catalogue URL:</label><br>
+                <input type="text" name="catalogue_url[]"><br><br>
+            `;
+            catalogueFields.appendChild(newField);
+        }
     </script>
 </head>
 <body>
@@ -26,8 +38,19 @@
         <form action="{{ url_for('add') }}" method="POST">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"><br><br>
-            <label for="catalogue">Catalogue Link:</label><br>
-            <input type="text" id="catalogue" name="catalogue"><br><br>
+
+            <div id="catalogueFields">
+                <h3>Catalogues:</h3>
+                <!-- You can include one default catalogue field -->
+                <div>
+                    <label for="catalogue_title">Catalogue Title:</label><br>
+                    <input type="text" name="catalogue_title[]"><br>
+                    <label for="catalogue_url">Catalogue URL:</label><br>
+                    <input type="text" name="catalogue_url[]"><br><br>
+                </div>
+            </div>
+            <button type="button" onclick="addCatalogueField()">Add Catalogue</button><br><br>
+
             <div id="productFields"></div>
             <button type="button" onclick="addProductField()">Add Product Field</button><br><br>
             <button type="submit">Add</button>

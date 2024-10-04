@@ -8,8 +8,8 @@
 </head>
 <body>
     <div>
-        <h1>Product List</h1>
-        <a href="{{ url_for('add') }}">Add New Product</a>
+        <h1>ESEMJE Appliances PVT. LTD.</h1>
+        <a href="{{ url_for('add') }}">Add New Agency</a>
         <ul>
             {% for item in data %}
             <li>
@@ -22,12 +22,19 @@
                         <button type="submit">Delete</button>
                     </form>
                 </div>
-                <a href="{{ item.catalogue }}">Catalogue</a>
+                <h4>Catalogues:</h4>
+                <ul>
+                    {% for catalogue in item.catalogues %}
+                    <li>
+                        <a href="{{ catalogue.url }}" target="_blank">{{ catalogue.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
                 <ul>
                     {% for product in item.products %}
                     <li>
                         <!-- <img src="{{ product.image }}" alt="{{ product.alt }}"> -->
-                        {{product.alt}} - <a href="{{product.image}}">{{product.image}}</a>
+                        {{ product.alt }} - <a href="{{ product.image }}">{{ product.image }}</a>
                     </li>
                     {% endfor %}
                 </ul>
