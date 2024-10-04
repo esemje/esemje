@@ -59,16 +59,22 @@ const AgencyPage = () => {
             </nav>
 
             <h2 className="text-3xl font-bold mb-6">{agency.name}</h2>
-            
-            <a 
-                href={agency.catalogue}
-                target="_blank" 
-                className="inline-block mb-8 bg-green-500 hover:bg-green-600 transition-colors duration-200 text-white py-2 px-6 rounded-lg shadow-md"
-            >
-                View Full Catalogue
-            </a>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 gap-4">
+                {agency.catalogues.map((catalogue, index) => (
+                    <a 
+                        key={index}
+                        href={catalogue.url}
+                        target="_blank" 
+                        rel="noopener noreferrer" // For security reasons
+                        className="inline-block bg-white text-[#0863a3] hover:bg-gray-100 transition-colors duration-200 py-2 px-6 font-semibold w-full rounded-lg shadow-md"
+                    >
+                        {catalogue.title}
+                    </a>
+                ))}
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
                 {agency.products.map((product, index) => (
                     <div key={index} className="aspect-square rounded-lg overflow-hidden shadow-md">
                         <img 
